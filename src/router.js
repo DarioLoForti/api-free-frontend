@@ -6,6 +6,7 @@ import CreateCategory from "./pages/CreateCategory.vue";
 import CreateTag from "./pages/CreateTag.vue";
 import Posts from "./pages/Posts.vue";
 import Tags from "./pages/Tags.vue";
+import Categories from "./pages/Categories.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -29,6 +30,11 @@ const router = createRouter({
       path: "/tags",
       name: "tags",
       component: Tags,
+    },
+    {
+      path: "/categories",
+      name: "categories",
+      component: Categories,
     },
     {
       path: "/create-category",
