@@ -8,10 +8,14 @@ export const store = reactive({
   updatePost: "http://localhost:3000/posts",
   deletePost: "http://localhost:3000/posts",
 
+  posts: [],
+
   //   URL FOR USER
 
   registerUser: "http://localhost:3000/auth/register",
   loginUser: "http://localhost:3000/auth/login",
+
+  users: [],
 
   // //   URL FOR CATEGORY
 
@@ -20,10 +24,14 @@ export const store = reactive({
   updateCategory: "http://localhost:3000/categories",
   deleteCategory: "http://localhost:3000/categories",
 
+  categories: [],
+
   // //   URL FOR TAGS
 
   createTag: "http://localhost:3000/tags",
   readTags: "http://localhost:3000/tags",
   updateTag: "http://localhost:3000/tags",
   deleteTag: "http://localhost:3000/tags",
+
+  selectedTags: [],
 });
