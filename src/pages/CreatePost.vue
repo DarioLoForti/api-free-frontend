@@ -16,7 +16,7 @@ export default {
   },
   methods: {
     onFileChange(event) {
-      this.image = event.target.files[0];
+      this.postImage = event.target.files[0];
     },
     async createPost() {
       const formData = new FormData();
@@ -32,13 +32,13 @@ export default {
       }
 
       try {
-        const response = await axios.post(`${this.store.baseApiUrl}/posts`, formData, {
+        const response = await axios.post(`${store.createPost}`, formData, {
           headers: {
             'Content-Type': 'multipart/form-data',
           },
         });
         console.log('Post creato con successo', response.data);
-        // Puoi aggiungere ulteriori azioni qui, come reindirizzamenti o aggiornamenti dello stato
+        
       } catch (error) {
         console.error('Errore nella creazione del post', error);
       }
