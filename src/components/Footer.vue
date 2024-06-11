@@ -1,6 +1,12 @@
 <script>
+import { store } from '../store.js'
 export default {
-    
+  name: 'Footer',
+  data() {
+    return {
+      store
+    }
+  },
 }
 </script>
 <template lang="">
