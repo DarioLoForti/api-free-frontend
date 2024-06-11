@@ -22,7 +22,7 @@ export default {
                     <li class="px-2"><a href=""><router-link :to="{ name: 'home' }">Home</router-link></a></li>
                     <li class="px-2"><a href=""><router-link :to="{ name: 'register' }">Register</router-link></a></li>
                     <li class="px-2"><a href=""><router-link :to="{ name: 'posts' }">Posts</router-link></a></li>
-                    <li class="px-2"><a href=""><router-link :to="{ name: 'create-post' }">New Post</router-link></a></li>
+                    <li class="px-2"><a href=""><router-link :to="{ name: 'tags' }">Tags</router-link></a></li>
                     <li class="px-2"><a href=""><router-link :to="{ name: 'create-tag' }">New Tag</router-link></a></li>
                     <li class="px-2"><a href=""><router-link :to="{ name: 'create-category' }">New Category</router-link></a></li>
                 </ul>

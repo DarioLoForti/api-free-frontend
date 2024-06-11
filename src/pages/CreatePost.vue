@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
 import axios from 'axios';
 import { store } from '../store.js';
 
@@ -85,4 +85,4 @@ export default {
 </template>
 <style lang="scss" scoped>
 @use '../styles/generals.scss' as *;
-</style>
+</style> -->

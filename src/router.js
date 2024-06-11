@@ -5,7 +5,7 @@ import Register from "./pages/Register.vue";
 import CreateCategory from "./pages/CreateCategory.vue";
 import CreateTag from "./pages/CreateTag.vue";
 import Posts from "./pages/Posts.vue";
-import CreatePost from "./pages/CreatePost.vue";
+import Tags from "./pages/Tags.vue";
 
 const router = createRouter({
   history: createWebHistory(),
@@ -21,19 +21,14 @@ const router = createRouter({
       component: Register,
     },
     {
-      path: "/create-post",
-      name: "create-post",
-      component: CreatePost,
-    },
-    // {
-    //   path: "/login",
-    //   name: "login",
-    //   component: Login,
-    // },
-    {
       path: "/posts",
       name: "posts",
       component: Posts,
+    },
+    {
+      path: "/tags",
+      name: "tags",
+      component: Tags,
     },
     {
       path: "/create-category",
