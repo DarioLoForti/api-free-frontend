@@ -3,7 +3,7 @@ import { store } from '../store.js';
 import axios from 'axios';
 
 export default {
-    name. 'HomePage',
+    name: 'HomePage',
 }
 </script>
 <template lang="">
