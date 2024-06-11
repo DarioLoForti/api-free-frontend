@@ -21,6 +21,7 @@ export default {
                 <ul class="d-flex justify-content-center align-items-cente mt-5 text-white">
                     <li class="px-2"><a href=""><router-link :to="{ name: 'home' }">Home</router-link></a></li>
                     <li class="px-2"><a href=""><router-link :to="{ name: 'register' }">Register</router-link></a></li>
+                    <li class="px-2"><a href=""><router-link :to="{ name: 'create-post' }">New Post</router-link></a></li>
                     
                 </ul>
             </div>

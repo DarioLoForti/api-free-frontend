@@ -3,7 +3,7 @@ import { createRouter, createWebHistory } from "vue-router";
 import HomePage from "./pages/HomePage.vue";
 import Register from "./pages/Register.vue";
 // import Login from "./pages/Login.vue";
-// import CreatePost from "./pages/CreatePost.vue";
+import CreatePost from "./pages/CreatePost.vue";
 // import CreateCategory from "./pages/CreateCategory.vue";
 // import CreateTag from "./pages/CreateTag.vue";
 
@@ -25,11 +25,11 @@ const router = createRouter({
     //   name: "login",
     //   component: Login,
     // },
-    // {
-    //   path: "/create-post",
-    //   name: "create-post",
-    //   component: CreatePost,
-    // },
+    {
+      path: "/create-post",
+      name: "create-post",
+      component: CreatePost,
+    },
     // {
     //   path: "/create-category",
     //   name: "create-category",
