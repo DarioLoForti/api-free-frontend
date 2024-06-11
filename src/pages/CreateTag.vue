@@ -13,7 +13,7 @@ export default {
   methods: {
     async createTag() {
       try {
-        const response = await axios.post(`${this.store.baseApiUrl}/tags`, { name: this.name });
+        const response = await axios.post(`${store.createTag}`, { name: this.name });
         console.log('Tag creato con successo', response.data);
       } catch (error) {
         console.error('Errore nella creazione del tag', error);

@@ -13,7 +13,7 @@ export default {
   methods: {
     async createCategory() {
       try {
-        const response = await axios.post(`${this.store.baseApiUrl}/categories`, { name: this.name });
+        const response = await axios.post(`${store.createCategory}`, { name: this.name });
         console.log('Categoria creata con successo', response.data);
       } catch (error) {
         console.error('Errore nella creazione della categoria', error);
