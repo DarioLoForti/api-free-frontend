@@ -1,27 +1,29 @@
 import { reactive } from "vue";
 
 export const store = reactive({
-  // baseApiUrl: "https://localhost:3000",
   // //   URL FOR POST
-  // posts: [],
-  // createPost: `${this.baseApiUrl}/posts`,
-  // readPosts: `${this.baseApiUrl}/posts`,
-  // updatePost: `${this.baseApiUrl}/posts`,
-  // deletePost: `${this.baseApiUrl}/posts`,
+
+  createPost: "http://localhost:3000/posts",
+  readPosts: "http://localhost:3000/posts",
+  updatePost: "http://localhost:3000/posts",
+  deletePost: "http://localhost:3000/posts",
+
   //   URL FOR USER
-  // users: [],
+
   registerUser: "http://localhost:3000/auth/register",
-  // loginUser: `${this.baseApiUrl}/auth/login`,
+  loginUser: "http://localhost:3000/auth/login",
+
   // //   URL FOR CATEGORY
-  // categories: [],
-  // createCategory: `${this.baseApiUrl}/categories`,
-  // readCategories: `${this.baseApiUrl}/categories`,
-  // updateCategory: `${this.baseApiUrl}/categories`,
-  // deleteCategory: `${this.baseApiUrl}/categories`,
+
+  createCategory: "http://localhost:3000/categories",
+  readCategories: "http://localhost:3000/categories",
+  updateCategory: "http://localhost:3000/categories",
+  deleteCategory: "http://localhost:3000/categories",
+
   // //   URL FOR TAGS
-  // tags: [],
-  // createTag: `${this.baseApiUrl}/tags`,
-  // readTags: `${this.baseApiUrl}/tags`,
-  // updateTag: `${this.baseApiUrl}/tags`,
-  // deleteTag: `${this.baseApiUrl}/tags`,
+
+  createTag: "http://localhost:3000/tags",
+  readTags: "http://localhost:3000/tags",
+  updateTag: "http://localhost:3000/tags",
+  deleteTag: "http://localhost:3000/tags",
 });
